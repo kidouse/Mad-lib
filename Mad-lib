@@ -1,0 +1,22 @@
+# Put the code for your project in this file - don't change the file's name, or the tests will stop working.
+# Your Name: kidouse
+    
+#have story set up then just fill in inputs
+
+name = input("type a name: ")
+n2= input ("type another name: ")
+Adjective = input("Enter an adjective: ")
+noun= input ("enter a noun: " )
+fastfood = input ("Enter a fastfood place: ")
+order = input("type what they order: ")
+noun2=input ("enter another noun: ")
+verb1=input ("enter a verb or an action: ")
+adverb1= input ("enter a adverb: ")
+car = input("enter a car: ")
+signoff = input ("a saying to end a story: ")
+
+
+
+
+madlib = f"Once {name} & {n2} went on a road trip to{Adjective} {noun}. Along the way, they stopped at {fastfood}, {name} ordered {order} and {n2} was {verb1} {adverb1}. In their trusty {car}, they laughed at the unexpected adventure. As the sun set, they continued their journey, cherishing the memories made in {noun} and excited for more in {noun2}.{signoff}"
+print(madlib)
